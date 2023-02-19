@@ -6,7 +6,7 @@ Feature: Library app login feature
 
   Accounts are: librarian, student, admin
 
-  @librarian
+  @librarian @employee
   Scenario: Login as librarian
     When user enters librarian username
     And user enters librarian password
