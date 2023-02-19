@@ -1,3 +1,4 @@
+@Regression
 Feature: Library app login feature
   User Story:
   As a user, I should be able to login with correct credentials to different
@@ -11,8 +12,14 @@ Feature: Library app login feature
     Then user should see the dashboard
 
 
-   //  @student @db
+
      Scenario: Login as student
     When user enters student username
     And user enters student password
+    Then user should see the dashboard
+
+
+  Scenario: Login as admin
+    When user enters admin username
+    And user enters admin password
     Then user should see the dashboard
