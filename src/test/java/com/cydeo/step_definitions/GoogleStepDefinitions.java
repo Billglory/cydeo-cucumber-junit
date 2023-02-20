@@ -24,7 +24,4 @@ public class GoogleStepDefinitions {
 
     }
 
-    @And("something else happened")
-    public void somethingElseHappened() {
-    }
 }
