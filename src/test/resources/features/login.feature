@@ -16,7 +16,6 @@ Given ser is on the library login page
     Then user should see the dashboard
 
 
-
 @student
      Scenario: Login as student
    Given user is on the library login page
