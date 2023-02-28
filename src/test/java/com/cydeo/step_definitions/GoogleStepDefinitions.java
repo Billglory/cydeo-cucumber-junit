@@ -11,18 +11,19 @@ public class GoogleStepDefinitions {
 
 
 
-    @When("user a is on Google search page")
-    public void userAIsOnGoogleSearchPage() { Driver.getDriver().get("https://www.google.com");
+   @When("user is on Google search page")
+    public void user_is_on_google_search_page() {
+
+        Driver.getDriver().get("https://www.google.com");
+
     }
 
-    @Then("user b should see title is Google")
-    public void userBShouldSeeTitleIsGoogle() {
-        String expectedTitle = "Google ";
-       String actualTitle=Driver.getDriver().getTitle();
+   @Then("user should see title is Google")
+    public void user_should_see_title_is_google() {
+        String expectedTitle = "Google";
+        String actualTitle = Driver.getDriver().getTitle();
 
-       Assert.assertEquals(actualTitle, expectedTitle);
-
-       Driver.closeDriver();
+        Assert.assertEquals(expectedTitle, actualTitle);
 
     }
 
