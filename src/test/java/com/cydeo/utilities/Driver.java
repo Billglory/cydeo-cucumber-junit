@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 public class Driver {
 
-    /*
+   /*
       Creating a private constructor, so we are closing
       access to the object of this class from outside the class
        */
@@ -35,7 +35,6 @@ public class Driver {
 
 
             /*
-
             We read our browserType from configuration.properties.
             This way, we can control which browser is opened from outside our code, from configuration.properties.
              */
