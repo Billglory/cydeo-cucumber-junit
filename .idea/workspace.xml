@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b45144f7-264a-4e75-be7d-99975b9c52a7" name="Changes" comment="day15;login feature" />
+    <list default="true" id="b45144f7-264a-4e75-be7d-99975b9c52a7" name="Changes" comment="day15;login feature">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cydeo/step_definitions/Hooks.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
       <recent name="C:\Users\User\ideaprojects\cydeo-cucumber-junit\src\test\resources\features" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CukesRunner">
+  <component name="RunManager">
     <configuration name="Feature: login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
@@ -375,7 +377,35 @@
       <option name="project" value="LOCAL" />
       <updated>1677670269708</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="day15;login feature">
+      <created>1677670294002</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677670294002</updated>
+    </task>
+    <task id="LOCAL-00034" summary="day15;login feature">
+      <created>1677670300749</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677670300749</updated>
+    </task>
+    <task id="LOCAL-00035" summary="day15;login feature">
+      <created>1677670310262</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677670310262</updated>
+    </task>
+    <task id="LOCAL-00036" summary="day15;login feature">
+      <created>1677670335432</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677670335432</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
