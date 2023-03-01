@@ -3,6 +3,8 @@ Feature: Google search functionality
   I should be able to search whatever I want and see relevant information
 
   @wip
-  Scenario : Search page title verification
-    When user a is on Google search page
-    Then user b should see title is Google
+  Scenario: google search
+    When Google search page
+    When enter keyword
+
+

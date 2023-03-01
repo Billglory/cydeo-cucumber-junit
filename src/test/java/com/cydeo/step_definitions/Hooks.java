@@ -7,16 +7,16 @@ In the class we will be able to pass pre- & post- conditions to
 
 
 import io.cucumber.java.AfterStep;
+import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import org.junit.After;
-import org.junit.Before;
 
 public class Hooks {
 
 
     //import from io.cucumber.java not from junit
 
-    @Before ( order= 1)
+    @Before( order= 1)
     public void setupScenario() {
         System.out.println("====Setting up browser using cucumber @Before");
     }
