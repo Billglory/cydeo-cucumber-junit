@@ -5,6 +5,6 @@ Feature: Google search functionality
   @wip
   Scenario: google search
     When Google search page
-    When enter keyword
+    Then enter keyword
 
 
