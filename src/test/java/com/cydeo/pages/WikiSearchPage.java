@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class WikiSearchPage {
 
-     PageFactory.initElements(Driver.getDriver(), this);
+   public WikiSearchPage(){
+        PageFactory.initElements(Driver.getDriver(), this);
     }
   @FindBy(id = "searchInput")
     public WebElement searchBox;

@@ -10,7 +10,7 @@
     Given user is on the library login page
 
 
-    @Librarian @employee @wip
+    @Librarian @employee
   Scenario: Login as librarian
       When user enters librarian username
     And user enters librarian password
