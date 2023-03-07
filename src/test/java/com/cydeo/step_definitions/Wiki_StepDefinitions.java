@@ -38,4 +38,17 @@ public void user_sees_is_in_the_wiki_title(String string) {
     Assert.assertTrue(Driver.getDriver().getTitle().contains(string));
 }
 
+@Then("User sees Steve Jobs is in the wiki title")
+public void user_sees_steve_jobs_is_in_the_wiki_title() {
+
+}
+
+    @Then("User sees {string} is in the main header")
+    public void userSeesIsInTheMainHeader(String string) {
+
+        Assert.assertTrue(wikiSearchPage.mainHeader.isDisplayed());
+
+        Assert.assertTrue(wikiSearchPage.mainHeader.getText().equals(string));
+        //3.06 pm cst
+}
 }
