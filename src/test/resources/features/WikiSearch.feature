@@ -30,6 +30,10 @@ Feature: Wikipedia search functionality and verifications
       | Bob Marley        | Bob Marley        | Bob Marley         |
       | Chuck Norris      | Chuck Norris      | Chuck Norris       |
       | Antony Hopkins    | Antony Hopkins    | Antony Hopkins     |
+
+       @scientists
+    Examples:
+      | searchValue       | expectedTitle     | expectedMainHeader |
       | Marie Curie       |  Marie Curie      |  Marie Curie       |
       | Lady Gaga         | Lady Gaga         | Lady Gaga          |
       | Kate Winslet      | Kate Winslet      | Kate Winslet       |
