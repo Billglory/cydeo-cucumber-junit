@@ -56,6 +56,8 @@ for given duration
 
     }
 
+public static void verifyTitleContains(String expectedTitle){
 
+}
 
 }
